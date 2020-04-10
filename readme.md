@@ -9,7 +9,7 @@ https
 express
 
 ## Gere seu certificado de HTTPS
-[g](g)
+[Read](https://github.com/t-heu/authBasicWithHttps/blob/master/src/cert/README.md)
 
 ### references
 [Basic Acess auth](https://techmonger.github.io/41/basic-access-auth/)
