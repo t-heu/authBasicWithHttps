@@ -1,9 +1,11 @@
-const fs = require('fs');
-const path = require('path')
-const cors = require('cors')
-const helmet = require('helmet')
-const express = require('express');
-const https = require('https');
+import * as fs from 'fs'
+import * as path from 'path'
+import * as cors from 'cors'
+import * as helmet from 'helmet'
+import * as express from 'express'
+import * as https from 'https'
+
+import routes from './routes'
 
 const app = express();
 const PORT = 3001
@@ -17,7 +19,7 @@ app.use(cors())
 app.use(helmet())
 app.use(express.urlencoded({ extended: true }))
 //app.use(express.json())
-app.use(require('./routes'))
+app.use(routes)
 
 server.listen(PORT, () => { 
   console.log(`🚀 listening on ${PORT}`) 
