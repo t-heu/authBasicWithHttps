@@ -3,10 +3,11 @@
 Autenticação feita com Basic e com protocolo HTTPS no localhost
 
 ## features
-Basic
-buffer
-https
-express
+- [x] Basic
+- [x] buffer
+- [x] https
+- [x] express
+- [x] nodemon
 
 ## Gere seu certificado de HTTPS
 [Read](https://github.com/t-heu/authBasicWithHttps/blob/master/src/cert/README.md)
